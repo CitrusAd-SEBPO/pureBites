@@ -330,7 +330,7 @@ p {
 .citrus_pureBites_carousel-indicators{
     position: absolute;
     bottom: 0;
-    left: calc(100%/2 - 40px);
+    left: calc(100%/2 - 52px);
     text-align: center;
 	background: rgba(255, 255, 255, 0.8);
 	border-radius: 5px 5px 0 0;
@@ -375,6 +375,14 @@ p {
 	height: auto;
 }
 
+.slide-content-3{
+	width: 90%;
+}
+
+.slider-logo-3{
+	width: 88%;
+}
+
 .citrus_purebits_slider-content > h1 {
 	font-family: "PetcoCircularTT-Bold", arial !important;
 	font-weight: bold;
@@ -409,14 +417,8 @@ p {
 }
 
 .citrus_purebits_common-slider-btn {
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
 	justify-content: center;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
 	align-items: center;
 }
 .citrus_purebits_common-slider-btn > a {
@@ -430,17 +432,11 @@ p {
 	font-weight: 600;
 	text-transform: uppercase;
 	font-size: 16px;
-	-webkit-transition: 0.6s;
-	-o-transition: 0.6s;
-	transition: 0.6s;
 }
 
 .citrus_purebits_common-slider-btn > a:hover {
 	background: #001952;
 	color: #fff;
-	-webkit-transition: 0.6s;
-	-o-transition: 0.6s;
-	transition: 0.6s;
 }
 
 /**************************************/
@@ -992,7 +988,7 @@ p {
 			top: 60%;
 	}
 	.citrus_pureBites_carousel-indicators {
-		left: calc(100%/2 - 55px);
+		left: calc(100%/2 - 52px);
 	}
 
 	.citrus_purebits_common-slider-btn {
