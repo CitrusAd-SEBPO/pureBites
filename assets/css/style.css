@@ -298,15 +298,16 @@ p {
 	min-height: 30vh;
 }
 
-.citrus_pureBites_carousel-item:nth-child(1){
+
+.citrus_pureBites_carousel-item1{
 	background-image: url("../images/banner1.jpg");
 }
 
-.citrus_pureBites_carousel-item:nth-child(2){
+.citrus_pureBites_carousel-item2{
 	background-image: url("../images/banner2.jpg");
 }
 
-.citrus_pureBites_carousel-item:nth-child(3){
+.citrus_pureBites_carousel-item3{
 	background-image: url("../images/banner3.jpg");
 }
 
