@@ -291,6 +291,47 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	background-position: center;
+	min-height: 30vh;
+}
+
+.citrus_pureBites_carousel-item:nth-child(1){
+	background-image: url("../images/banner1.jpg");
+}
+
+.citrus_pureBites_carousel-item:nth-child(2){
+	background-image: url("../images/banner2.jpg");
+}
+
+.citrus_pureBites_carousel-item:nth-child(3){
+	background-image: url("../images/banner3.jpg");
+}
+
+.citrus_pureBites_carousel-item .citrus_purebits_slider-content{
+    text-align: center;
+    padding: 15px 15px 30px;
+	max-width: 36%;
+	margin: 0 auto;
+}
+
+.citrus_pureBites_carousel-item .citrus_purebits_slider-content img{
+	max-width: 35%;
+	padding: 0 0 10px;
+}
+
+.citrus_pureBites_carousel-item .citrus_purebits_slider-content h1{
+	padding: 0 15px;
+}
+
+.citrus_pureBites_carousel-item .citrus_purebits_slider-content p{
+	padding: 15px 15px 30px;
+}
+
+.citrus_pureBites_carousel-item .citrus_purebits_slider-content .citrus_purebits_common-slider-btn{
+    margin: 0 0 30px;
 }
 
 .citrus_pureBites_carousel-controls .prev{
@@ -395,11 +436,10 @@ p {
 .citrus_purebits_slider-content > p {
 	font-family: "PetcoCircularTT-Regular", arial !important;
 	color: #fff;
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: 400;
 	padding-bottom: 20px;
 	display: block;
-	width: 87%;
 	margin: 0 auto;
 }
 
@@ -837,6 +877,10 @@ p {
 			    -ms-transform: translate(-52.5%, -40%);
 			        transform: translate(-52.5%, -40%);
 	}
+
+	.citrus_purebits_slider-content > p{
+		max-width: 750px;
+	}
 }
 
 @media (min-width: 768px) and (max-width: 1299px) {
@@ -850,7 +894,6 @@ p {
 	}
 	.citrus_purebits_slider-content > p {
 			font-size: 12px;
-			width: 71%;
 			padding-bottom: 8px;
 	}
 	.citrus_purebits_slider-main-flex {
@@ -889,7 +932,40 @@ p {
 		font-size: 20px;
 	}
 	.citrus_purebits_slider-content > p {
-		font-size: 14px;
+		font-size: 13px;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+	
+	.citrus_pureBites_carousel-item:nth-child(1){
+		background-image: url("../images/banner1.jpg");
+	}
+	
+	.citrus_pureBites_carousel-item:nth-child(2){
+		background-image: url("../images/banner2.jpg");
+	}
+	
+	.citrus_pureBites_carousel-item:nth-child(3){
+		background-image: url("../images/banner3.jpg");
+	}
+	
+	.citrus_pureBites_carousel-item .citrus_purebits_slider-content{
+		padding: 15px;
+	}
+
+	
+	.citrus_pureBites_carousel-item .citrus_purebits_slider-content h1{
+		padding: 0;
+	}
+	
+	.citrus_pureBites_carousel-item .citrus_purebits_slider-content p{
+		padding: 10px 0 15px;
+		font-size: 11px;
+	}
+	
+	.citrus_pureBites_carousel-item .citrus_purebits_slider-content .citrus_purebits_common-slider-btn{
+		margin: 0 0 15px;
 	}
 }
 
@@ -968,7 +1044,6 @@ p {
 	}
 	.citrus_purebits_slider-content > p {
 		font-size: 12px;
-		width: 45%;
 	}
 }
 
@@ -1017,6 +1092,54 @@ p {
 			-ms-flex-wrap: wrap;
 			    flex-wrap: wrap;
 	}
+
+	.citrus_pureBites_carousel-item{
+		display: flex;
+		flex-wrap: wrap;
+		align-items: flex-start;
+		justify-content: center;
+		width: 100%;
+		background-position: center;
+		min-height: unset;
+		background: #333;
+	}
+
+	.citrus_pureBites_carousel-item img{
+		width: 100%;
+	}
+	
+	.citrus_pureBites_carousel-item:nth-child(1){
+		background-image: none
+	}
+	
+	.citrus_pureBites_carousel-item:nth-child(2){
+		background-image: none
+	}
+	
+	.citrus_pureBites_carousel-item:nth-child(3){
+		background-image: none
+	}
+	
+	.citrus_pureBites_carousel-item .citrus_purebits_slider-content{
+		padding: 15px;
+		max-width: 100%;
+	}
+
+	
+	.citrus_pureBites_carousel-item .citrus_purebits_slider-content h1{
+		padding: 0;
+	}
+	
+	.citrus_pureBites_carousel-item .citrus_purebits_slider-content p{
+		padding: 10px 0 15px;
+		font-size: 14px;
+	}
+	
+	.citrus_pureBites_carousel-item .citrus_purebits_slider-content .citrus_purebits_common-slider-btn{
+		margin: 0 0 30px;
+	}
+
+
 	.citrus_purebits_single_banifit {
 			-webkit-box-flex: 0;
 			    -ms-flex: 0 0 100%;
@@ -1134,7 +1257,6 @@ p {
 
 @media all and (max-width: 413px) {
 	.citrus_purebits_slider-content > p {
-			width: 80%;
 			padding-bottom: 5px;
 	}
 }
