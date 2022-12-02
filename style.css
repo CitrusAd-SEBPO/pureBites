@@ -1,4 +1,4 @@
-    
+ 
     /*
      * Legal Disclaimer
      *
@@ -102,7 +102,6 @@
     }
     
     .citrus_pureBites_carousel-inner{
-    
         display: flex;
         transition: all ease .5s;
     }
@@ -120,15 +119,15 @@
     
     
     .citrus_pureBites_carousel-item1{
-        background-image: url("https://assets.petco.com/petco/image/upload/f_auto,q_auto/purebites_banner11");
+        background-image: url("new-img/purebites_banner1.jpg");
     }
     
     .citrus_pureBites_carousel-item2{
-        background-image: url("https://assets.petco.com/petco/image/upload/f_auto,q_auto/purebites_banner22");
+        background-image: url("new-img/purebites_banner2.jpg");
     }
     
     .citrus_pureBites_carousel-item3{
-        background-image: url("https://assets.petco.com/petco/image/upload/f_auto,q_auto/purebites_banner33");
+        background-image: url("new-img/purebites_banner3.jpg");
     }
     
     .citrus_pureBites_carousel-item .citrus_purebits_slider-content{
@@ -504,7 +503,8 @@
         display: flex;
         -webkit-box-pack: center;
             -ms-flex-pack: center;
-                justify-content: center;
+        justify-content: flex-start;
+        overflow-x: auto;
     }
     .citrus_purebitsinner-item {
         -webkit-box-flex: 0;
