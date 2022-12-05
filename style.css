@@ -1,4 +1,4 @@
- 
+   
     /*
      * Legal Disclaimer
      *
@@ -114,7 +114,7 @@
         background-repeat: no-repeat;
         width: 100%;
         background-position: center;
-        min-height: 30vh;
+        /* min-height: 30vh; */
     }
     
     
@@ -143,11 +143,12 @@
     }
     
     .citrus_pureBites_carousel-item .citrus_purebits_slider-content h1{
-        padding: 0 15px;
+        padding: 15px;
+        margin: 0;
     }
     
     .citrus_pureBites_carousel-item .citrus_purebits_slider-content p{
-        padding: 0 15px 20px;
+        padding: 0 15px 25px;
     }
     
     .citrus_pureBites_carousel-item .citrus_purebits_slider-content .citrus_purebits_common-slider-btn{
@@ -759,17 +760,17 @@
     
     @media only screen and (min-width: 768px) and (max-width: 1023px) {
         
-        .citrus_pureBites_carousel-item:nth-child(1){
+        /* .citrus_pureBites_carousel-item:nth-child(1){
             background-image: url("../images/banner1 ");
-        }
+        } */
         
-        .citrus_pureBites_carousel-item:nth-child(2){
+        /* .citrus_pureBites_carousel-item:nth-child(2){
             background-image: url("../images/banner2 ");
         }
         
         .citrus_pureBites_carousel-item:nth-child(3){
             background-image: url("../images/banner3 ");
-        }
+        } */
         
         .citrus_pureBites_carousel-item .citrus_purebits_slider-content{
             padding: 15px;
@@ -777,11 +778,11 @@
     
         
         .citrus_pureBites_carousel-item .citrus_purebits_slider-content h1{
-            padding: 0;
+            padding: 10px;
         }
         
         .citrus_pureBites_carousel-item .citrus_purebits_slider-content p{
-            padding: 10px 0 15px;
+            padding: 5px 0 10px;
             font-size: 11px;
         }
         
