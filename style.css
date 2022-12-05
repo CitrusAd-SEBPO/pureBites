@@ -13,6 +13,11 @@
      * Lineto.com, 2020
      */
 
+     body{
+        margin: 0;
+        padding: 0;
+     }
+
      .citrus_purebits_all-overflow a{
         text-decoration: none;
      }
