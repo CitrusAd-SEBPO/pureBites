@@ -315,3 +315,130 @@ function loop(status) {
         clearInterval(time);
     }
 }
+
+
+// Splide carousel
+var splides = document.querySelectorAll('.dog_freeze_dried');
+if (splides.length) {
+    for (var i = 0; i < splides.length; i++) {
+        var splideElement = splides[i];
+        var splideDefaultOptions =
+        {
+            rewind: true,
+            type: 'loop',
+            autoplay: false,
+            rewindSpeed: 500,
+            speed: 500,
+            pauseOnHover: true,
+            perPage: 5,
+            perMove: 1,
+            width: '100%',
+            breakpoints: {
+                375: {
+                    perPage: 2,
+                },
+                576: {
+                    perPage: 2,
+                },
+                767: {
+                    perPage: 2,
+                },
+                1024: {
+                    perPage: 5,
+                },
+                1200: {
+                    perPage: 5,
+                },
+                1440: {
+                    perPage: 5,
+                }
+            }
+        }
+
+        new Splide(splideElement, splideDefaultOptions).mount();
+    }
+}
+
+// Splide carousel
+var splides = document.querySelectorAll('.dog_treats');
+if (splides.length) {
+    for (var i = 0; i < splides.length; i++) {
+        var splideElement = splides[i];
+        var splideDefaultOptions =
+        {
+            rewind: true,
+            type: 'loop',
+            autoplay: false,
+            rewindSpeed: 500,
+            speed: 500,
+            pauseOnHover: true,
+            perPage: 5,
+            perMove: 1,
+            width: '100%',
+            breakpoints: {
+                375: {
+                    perPage: 2,
+                },
+                576: {
+                    perPage: 2,
+                },
+                767: {
+                    perPage: 2,
+                },
+                1024: {
+                    perPage: 5,
+                },
+                1200: {
+                    perPage: 5,
+                },
+                1440: {
+                    perPage: 5,
+                }
+            }
+        }
+
+        new Splide(splideElement, splideDefaultOptions).mount();
+    }
+}
+
+// Splide carousel
+var splides = document.querySelectorAll('.dog_toppers');
+if (splides.length) {
+    for (var i = 0; i < splides.length; i++) {
+        var splideElement = splides[i];
+        var splideDefaultOptions =
+        {
+            rewind: true,
+            type: 'loop',
+            autoplay: false,
+            rewindSpeed: 500,
+            speed: 500,
+            pauseOnHover: true,
+            perPage: 5,
+            perMove: 1,
+            width: '100%',
+            breakpoints: {
+                375: {
+                    perPage: 2,
+                },
+                576: {
+                    perPage: 2,
+                },
+                767: {
+                    perPage: 2,
+                },
+                1024: {
+                    perPage: 5,
+                },
+                1200: {
+                    perPage: 5,
+                },
+                1440: {
+                    perPage: 5,
+                }
+            }
+        }
+
+        new Splide(splideElement, splideDefaultOptions).mount();
+    }
+}

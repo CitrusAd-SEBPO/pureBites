@@ -1,4 +1,3 @@
-   
     /*
      * Legal Disclaimer
      *
@@ -13,10 +12,7 @@
      * Lineto.com, 2020
      */
 
-     body{
-        margin: 0;
-        padding: 0;
-     }
+     
 
      .citrus_purebits_all-overflow a{
         text-decoration: none;
@@ -438,7 +434,6 @@
     }
     
     .filterBestDogDiv_citrus_purebites {
-        float: left;
         display: none;
     }
     
@@ -510,7 +505,6 @@
         -webkit-box-pack: center;
             -ms-flex-pack: center;
         justify-content: flex-start;
-        overflow-x: auto;
     }
     .citrus_purebitsinner-item {
         -webkit-box-flex: 0;
@@ -900,19 +894,19 @@
         }
         .citrus_pureBites_carousel-indicators {
             left: calc(100%/2 - 52px);
+            display: none;
         }
     
         .citrus_purebits_common-slider-btn {
                 -webkit-box-orient: vertical;
                 -webkit-box-direction: normal;
-                    -ms-flex-direction: column;
-                        flex-direction: column;
+                    -ms-flex-direction: row;
+                        flex-direction: row;
         }
     
         .citrus_purebits_common-slider-btn > a {
                 background: transparent;
-                margin: 10px 0px;
-                padding: 7px 0px;
+                padding: 10px 15px;
                 color: #fff;
                 text-transform: capitalize;
                 font-size: 16px;
@@ -957,7 +951,7 @@
         }
         
         .citrus_pureBites_carousel-item .citrus_purebits_slider-content{
-            padding: 15px;
+            padding: 15px 15px 12px;
             max-width: 100%;
         }
     
@@ -967,12 +961,12 @@
         }
         
         .citrus_pureBites_carousel-item .citrus_purebits_slider-content p{
-            padding: 10px 0 15px;
+            padding: 10px 0;
             font-size: 14px;
         }
         
         .citrus_pureBites_carousel-item .citrus_purebits_slider-content .citrus_purebits_common-slider-btn{
-            margin: 0 0 30px;
+            margin: 0;
         }
     
     
@@ -1079,9 +1073,6 @@
         .citrus_purebits_page-booked-area {
                 padding-top: 25px;
         }
-        .citrus_purebits_common-slider-btn > a {
-                padding: 2px 0px;
-        }
         .citrus_purebites-footer-logo {
                 margin-left: 0;
         }
@@ -1096,3 +1087,4 @@
                 padding-bottom: 5px;
         }
     }
+    
