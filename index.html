@@ -18,9 +18,7 @@
         <!-- Stylesheet -->
 
         <!-- Main Stylesheet -->
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="tab.css">
-        <link rel="stylesheet" href="splide.css">
+        <link rel="stylesheet" href="assets/css/style.css">
     </head>
 
     <body>
@@ -200,7 +198,7 @@
                                 <div class="citrus_purebits_dog_inner__content">
                                     <!-- Dog Raw 01 -->
                                     <div class="citrus_purebits_dog_inner__content-item">
-                                        <!-- single item -->
+                                        <!-- single item 1 -->
                                         <div
                                             class="citrus_purebitsinner-item filterBestDogDiv_citrus_purebites citrus_purebites_frozen_raw_meals">
                                             <div class="citrus_purebitsinner-tab-img">
@@ -213,7 +211,7 @@
                                                     " onclick="clickTrackLink(this);">Shop Now</a>
                                             </div>
                                         </div>
-                                        <!-- single item -->
+                                        <!-- single item 2 -->
                                         <div
                                             class="citrus_purebitsinner-item filterBestDogDiv_citrus_purebites citrus_purebites_frozen_raw_meals">
                                             <div class="citrus_purebitsinner-tab-img">
@@ -226,7 +224,7 @@
                                                     " onclick="clickTrackLink(this);">Shop Now</a>
                                             </div>
                                         </div>
-                                        <!-- single item -->
+                                        <!-- single item 3 -->
                                         <div
                                             class="citrus_purebitsinner-item filterBestDogDiv_citrus_purebites citrus_purebites_frozen_raw_meals">
                                             <div class="citrus_purebitsinner-tab-img">
@@ -806,6 +804,257 @@
         <script src="app.js"></script>
         <script>
             
+            // Splide carousel - Dog 1
+            var splides = document.querySelectorAll('.dog_freeze_dried');
+            if (splides.length) {
+                for (var i = 0; i < splides.length; i++) {
+                    var splideElement = splides[i];
+                    var splideDefaultOptions =
+                    {
+                        rewind: true,
+                        type: 'loop',
+                        autoplay: false,
+                        rewindSpeed: 500,
+                        speed: 500,
+                        pauseOnHover: true,
+                        perPage: 5,
+                        perMove: 1,
+                        width: '100%',
+                        breakpoints: {
+                            375: {
+                                perPage: 2,
+                            },
+                            576: {
+                                perPage: 2,
+                            },
+                            767: {
+                                perPage: 2,
+                            },
+                            1024: {
+                                perPage: 5,
+                            },
+                            1200: {
+                                perPage: 5,
+                            },
+                            1440: {
+                                perPage: 5,
+                            }
+                        }
+                    }
+
+                    new Splide(splideElement, splideDefaultOptions).mount();
+                }
+            }
+
+            // Splide carousel - Dog 2
+            var splides = document.querySelectorAll('.dog_treats');
+            if (splides.length) {
+                for (var i = 0; i < splides.length; i++) {
+                    var splideElement = splides[i];
+                    var splideDefaultOptions =
+                    {
+                        rewind: true,
+                        type: 'loop',
+                        autoplay: false,
+                        rewindSpeed: 500,
+                        speed: 500,
+                        pauseOnHover: true,
+                        perPage: 5,
+                        perMove: 1,
+                        width: '100%',
+                        breakpoints: {
+                            375: {
+                                perPage: 2,
+                            },
+                            576: {
+                                perPage: 2,
+                            },
+                            767: {
+                                perPage: 2,
+                            },
+                            1024: {
+                                perPage: 5,
+                            },
+                            1200: {
+                                perPage: 5,
+                            },
+                            1440: {
+                                perPage: 5,
+                            }
+                        }
+                    }
+
+                    new Splide(splideElement, splideDefaultOptions).mount();
+                }
+            }
+
+            // Splide carousel - Dog 3
+            var splides = document.querySelectorAll('.dog_toppers');
+            if (splides.length) {
+                for (var i = 0; i < splides.length; i++) {
+                    var splideElement = splides[i];
+                    var splideDefaultOptions =
+                    {
+                        rewind: true,
+                        type: 'loop',
+                        autoplay: false,
+                        rewindSpeed: 500,
+                        speed: 500,
+                        pauseOnHover: true,
+                        perPage: 5,
+                        perMove: 1,
+                        width: '100%',
+                        breakpoints: {
+                            375: {
+                                perPage: 2,
+                            },
+                            576: {
+                                perPage: 2,
+                            },
+                            767: {
+                                perPage: 2,
+                            },
+                            1024: {
+                                perPage: 5,
+                            },
+                            1200: {
+                                perPage: 5,
+                            },
+                            1440: {
+                                perPage: 5,
+                            }
+                        }
+                    }
+
+                    new Splide(splideElement, splideDefaultOptions).mount();
+                }
+            }
+
+            // Splide carousel - Dog 4
+            var splides = document.querySelectorAll('.cat_freeze_dried');
+            if (splides.length) {
+                for (var i = 0; i < splides.length; i++) {
+                    var splideElement = splides[i];
+                    var splideDefaultOptions =
+                    {
+                        rewind: true,
+                        type: 'loop',
+                        autoplay: false,
+                        rewindSpeed: 500,
+                        speed: 500,
+                        pauseOnHover: true,
+                        perPage: 5,
+                        perMove: 1,
+                        width: '100%',
+                        breakpoints: {
+                            375: {
+                                perPage: 2,
+                            },
+                            576: {
+                                perPage: 2,
+                            },
+                            767: {
+                                perPage: 2,
+                            },
+                            1024: {
+                                perPage: 5,
+                            },
+                            1200: {
+                                perPage: 5,
+                            },
+                            1440: {
+                                perPage: 5,
+                            }
+                        }
+                    }
+
+                    new Splide(splideElement, splideDefaultOptions).mount();
+                }
+            }
+
+            // Splide carousel - Dog 5
+            var splides = document.querySelectorAll('.cat_treats');
+            if (splides.length) {
+                for (var i = 0; i < splides.length; i++) {
+                    var splideElement = splides[i];
+                    var splideDefaultOptions =
+                    {
+                        rewind: true,
+                        type: 'loop',
+                        autoplay: false,
+                        rewindSpeed: 500,
+                        speed: 500,
+                        pauseOnHover: true,
+                        perPage: 5,
+                        perMove: 1,
+                        width: '100%',
+                        breakpoints: {
+                            375: {
+                                perPage: 2,
+                            },
+                            576: {
+                                perPage: 2,
+                            },
+                            767: {
+                                perPage: 2,
+                            },
+                            1024: {
+                                perPage: 5,
+                            },
+                            1200: {
+                                perPage: 5,
+                            },
+                            1440: {
+                                perPage: 5,
+                            }
+                        }
+                    }
+
+                    new Splide(splideElement, splideDefaultOptions).mount();
+                }
+            }
+
+            // Splide carousel - Dog 6
+            var splides = document.querySelectorAll('.cat_toppers');
+            if (splides.length) {
+                for (var i = 0; i < splides.length; i++) {
+                    var splideElement = splides[i];
+                    var splideDefaultOptions =
+                    {
+                        rewind: true,
+                        type: 'loop',
+                        autoplay: false,
+                        rewindSpeed: 500,
+                        speed: 500,
+                        pauseOnHover: true,
+                        perPage: 5,
+                        perMove: 1,
+                        width: '100%',
+                        breakpoints: {
+                            375: {
+                                perPage: 2,
+                            },
+                            576: {
+                                perPage: 2,
+                            },
+                            767: {
+                                perPage: 2,
+                            },
+                            1024: {
+                                perPage: 5,
+                            },
+                            1200: {
+                                perPage: 5,
+                            },
+                            1440: {
+                                perPage: 5,
+                            }
+                        }
+                    }
+
+                    new Splide(splideElement, splideDefaultOptions).mount();
+                }
+            }
         </script>
     </body>
 
