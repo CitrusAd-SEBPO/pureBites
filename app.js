@@ -1,6 +1,7 @@
 // start parent tab cat & dog js //
-filterBestCat("citrus_purebites_cat_all_recipes");
-
+document.addEventListener("DOMContentLoaded", function () {
+  filterBestCat("citrus_purebites_cat_all_recipes");
+});
 function filterBestCat(c) {
   var x, i;
   x = document.getElementsByClassName("filterBestCatDiv_citrus_purebites");
