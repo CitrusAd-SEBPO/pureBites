@@ -69,17 +69,17 @@ if (splides.length) {
   for (var i = 0; i < splides.length; i++) {
     var splideElement = splides[i];
     var splideDefaultOptions = {
-      rewind: true,
+      arrows: true,
       type: "slide",
-      autoplay: false,
+      start: 0,
+      pagination: false,
       rewindSpeed: 500,
       speed: 500,
-      loop: true,
-      pagination: false,
       pauseOnHover: true,
-      perPage: 4,
+      perPage: 5,
       perMove: 1,
-      width: "100%",
+      gap: 20,
+      omitEnd: true,
       breakpoints: {
         375: {
           perPage: 1,
@@ -94,10 +94,10 @@ if (splides.length) {
           perPage: 3,
         },
         1024: {
-          perPage: 3,
+          perPage: 5,
         },
         1200: {
-          perPage: 4,
+          perPage: 5,
         },
         1440: {
           perPage: 5,

@@ -1528,6 +1528,37 @@ End product tab carousal style //imran
             padding-bottom: 5px;
         }
     }
+
+    /* revised css add for arrow hide */
+    .cirtus__tabs .splide__arrow,
+    .cirtus_cat_tabs .splide__arrow {
+        -ms-flex-align: center;
+        -webkit-box-align: center;
+        align-items: center;
+        background: #ffffff;
+        border: 1px solid #122359;
+        border-radius: 50%;
+        cursor: pointer;
+        display: -ms-flexbox;
+        display: -webkit-box;
+        display: flex;
+        height: 2.2em;
+        -ms-flex-pack: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+        opacity: 1;
+        padding: 0;
+        position: absolute;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        width: 2.2em;
+        z-index: 1;
+    }
+
+    .cirtus__tabs .splide__arrow:disabled {
+        opacity: 0;
+    }
 </style>
 <div class="citrus_purebits_all-overflow">
     <!--===============================================================
@@ -1805,13 +1836,13 @@ End product tab carousal style //imran
                                             class="citrus_purebitsinner-item filterBestDogDiv_citrus_purebites citrus_purebites_frozen_raw_meals citrus__tab_content_item citrus_-dogFood splide__slide">
                                             <div class="citrus_purebitsinner-tab-img">
                                                 <a href="#"> <img
-                                                        src="https://assets.petco.com/petco/image/upload/f_auto,q_auto/purebites_tab1_p6"
+                                                        src="https://assets.petco.com/petco/image/upload/f_auto,q_auto/purebites_tab1_p6-revised"
                                                         alt="" /></a>
                                             </div>
-                                            <a href="#">PureBites Cheddar Cheese Freeze Dried Dog Treats, 2 oz.</a>
+                                            <a href="#">PureBites Cheddar Cheese Freeze Dried Dog Treats, 16 oz.</a>
                                             <div class="shop-btn">
-                                                <a href="https://www.petco.com/shop/en/petcostore/product/purebites-cheddar-cheese-freeze-dried-dog-treats-2-oz-2165554"
-                                                    manual_cm_sp="sponsoredbrandpage:purebites:freezedriedtreats:5:purebites cheddar cheese freeze dried dog treats, 2 oz.:shopnow"
+                                                <a href="https://www.petco.com/shop/en/petcostore/product/purebites-cheddar-cheese-freeze-dried-dog-treats"
+                                                    manual_cm_sp="sponsoredbrandpage:purebites:freezedriedtreats:6:purebites cheddar cheese freeze dried dog treats, 16 oz. :shopnow"
                                                     onclick="clickTrackLink(this);">Shop Now</a>
                                             </div>
                                         </div>
@@ -2581,17 +2612,17 @@ End product tab carousal style //imran
         for (var i = 0; i < splides.length; i++) {
             var splideElement = splides[i];
             var splideDefaultOptions = {
-                rewind: true,
+                arrows: true,
                 type: "slide",
-                autoplay: false,
+                start: 0,
+                pagination: false,
                 rewindSpeed: 500,
                 speed: 500,
-                loop: true,
-                pagination: false,
                 pauseOnHover: true,
-                perPage: 4,
+                perPage: 5,
                 perMove: 1,
-                width: "100%",
+                gap: 20,
+                omitEnd: true,
                 breakpoints: {
                     375: {
                         perPage: 1,
@@ -2606,10 +2637,10 @@ End product tab carousal style //imran
                         perPage: 3,
                     },
                     1024: {
-                        perPage: 3,
+                        perPage: 5,
                     },
                     1200: {
-                        perPage: 4,
+                        perPage: 5,
                     },
                     1440: {
                         perPage: 5,
@@ -2874,5 +2905,5 @@ End product tab carousal style //imran
     }
 
 
-        // start child tab for Cat js //
+    // start child tab for Cat js //
 </script>
