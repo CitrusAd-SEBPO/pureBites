@@ -82,10 +82,10 @@ if (splides.length) {
       omitEnd: true,
       breakpoints: {
         375: {
-          perPage: 1,
+          perPage: 1.5,
         },
         576: {
-          perPage: 2,
+          perPage: 2.3,
         },
         991: {
           perPage: 3,

@@ -1,16 +1,16 @@
-/*
-     * Legal Disclaimer
-     *
-     * These web fonts are licensed exclusively for use on the following:
-     * All domains belonging to Petco
-     *
-     * It is strictly forbidden to download or use these fonts on any other website domain or media.
-     *
-     * While the @font-face statements below may be modified by the client, this
-     * disclaimer may not be removed.
-     *
-     * Lineto.com, 2020
-     */
+@font-face {
+  font-family: PetcoCircularTT-Regular;
+  src: url(../fonts/PetcoCircularTT-Regular.woff2) format("woff2"),
+    url(../fonts/PetcoCircularTT-Regular.woff) format("woff");
+}
+
+@font-face {
+  font-family: PetcoCircularTT-Bold;
+  src: url(../fonts/PetcoCircularTT-Bold.woff2) format("woff2"),
+    url(../fonts/PetcoCircularTT-Bold.woff) format("woff");
+}
+
+/* remove above when handoff prepare */
 
 .citrus_purebits_all-overflow a {
   text-decoration: none;
@@ -507,14 +507,8 @@ p {
   -ms-flex-pack: center;
   justify-content: flex-start;
 }
-.citrus_purebitsinner-item {
-  /* -webkit-box-flex: 0;
-  -ms-flex: 0 0 230px;
-  flex: 0 0 230px; */
-  margin: 15px;
-}
 
-.citrus_purebitsinner-tab-img > a > img {
+.citrus_purebitsinner-tab-img img {
   width: 100%;
   height: auto;
 }
@@ -537,11 +531,25 @@ p {
   display: block;
   padding-top: 20px;
   margin-top: 18px;
+  margin-bottom: 0;
   min-height: 76px;
   width: 100%;
   line-height: 1.3;
 }
-
+.citrus_purebitsinner-item > p {
+  color: #220c0b;
+  font-size: 15px;
+  font-family: "PetcoCircularTT-Regular", arial !important;
+  line-height: 18px !important;
+  padding: 20px 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  max-height: 1em; /*when prepare hand-off replace with 4em */
+  margin-bottom: 24px;
+}
 .citrus_purebitsinner-item .shop-btn > a {
   color: #001952;
   font-size: 16px;
@@ -879,7 +887,7 @@ product tab carousal style start //imran
   display: -ms-flexbox;
   display: -webkit-box;
   display: flex;
-  height: 3.2em;
+  height: 2.2em;
   -ms-flex-pack: center;
   -webkit-box-pack: center;
   justify-content: center;
@@ -890,7 +898,7 @@ product tab carousal style start //imran
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  width: 3.2em;
+  width: 2.2em;
   z-index: 1;
 }
 
@@ -943,12 +951,10 @@ product tab carousal style start //imran
 }
 
 .citrus__tab_content_item {
-  /* max-width: 230px;
-  width: 100% !important;
-  margin: 0px 10px; */
   display: none;
 }
-.citrus__tab_content_item > a {
+.citrus__tab_content_item > a,
+.citrus__tab_content_item > p {
   font-family: "PetcoCircularTT-Regular", arial !important;
   text-decoration: none;
 }
@@ -1025,7 +1031,7 @@ product tab carousal style start //imran
   display: -ms-flexbox;
   display: -webkit-box;
   display: flex;
-  height: 3.2em;
+  height: 2.2em;
   -ms-flex-pack: center;
   -webkit-box-pack: center;
   justify-content: center;
@@ -1036,7 +1042,7 @@ product tab carousal style start //imran
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  width: 3.2em;
+  width: 2.2em;
   z-index: 1;
 }
 /* ----------------------------
@@ -1176,7 +1182,7 @@ End product tab carousal style //imran
   }
   .citrusPurebite21_show {
     display: block;
-    width: 150%;
+    width: 100%;
     overflow: hidden;
   }
 
@@ -1194,9 +1200,6 @@ End product tab carousal style //imran
   .citrus_purebits_dog_inner__content-item {
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
-  }
-  .citrus_purebitsinner-item {
-    flex: 0 0 55%;
   }
   .citrus_purebits_page-booked_content span {
     font-size: 24px;
@@ -1376,6 +1379,12 @@ End product tab carousal style //imran
     width: 100%;
     padding: 0 20px 30px;
   }
+
+  /* product card carousal width */
+  .citrus_purebits_shopper_container {
+    max-width: 100%;
+    padding-left: 10px;
+  }
 }
 
 @media all and (max-width: 575px) {
@@ -1441,7 +1450,7 @@ End product tab carousal style //imran
 }
 /* revised css add for arrow hide */
 .cirtus__tabs .splide__arrow,
-.cirtus_cat_tabs .splide__arrow{
+.cirtus_cat_tabs .splide__arrow {
   -ms-flex-align: center;
   -webkit-box-align: center;
   align-items: center;
