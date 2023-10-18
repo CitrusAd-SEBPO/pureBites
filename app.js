@@ -72,20 +72,21 @@ if (splides.length) {
       arrows: true,
       type: "slide",
       start: 0,
+      focus: 0,
       pagination: false,
       rewindSpeed: 500,
       speed: 500,
       pauseOnHover: true,
       perPage: 5,
       perMove: 1,
-      gap: 20,
+      gap: 10,
       omitEnd: true,
       breakpoints: {
         375: {
           perPage: 1.5,
         },
         576: {
-          perPage: 2.3,
+          perPage: 1.75,
         },
         991: {
           perPage: 3,
