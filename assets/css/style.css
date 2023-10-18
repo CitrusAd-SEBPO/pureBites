@@ -957,6 +957,13 @@ product tab carousal style start //imran
   display: none;
   margin-left: 10px;
 }
+.citrus__tab_content_item:first-child {
+  margin-left: 15px;
+}
+
+.citrus__tab_content_item:last-child {
+  margin-right: 15px;
+}
 .citrus__tab_content_item > a,
 .citrus__tab_content_item > p {
   font-family: "PetcoCircularTT-Regular", arial !important;
@@ -1354,6 +1361,7 @@ End product tab carousal style //imran
   }
   .citrus_purebites_parent_button {
     gap: 45px;
+    padding: 0 15px;
   }
   .citrus_purebitsnavigation-auto {
     display: none;
