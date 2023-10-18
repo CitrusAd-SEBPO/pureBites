@@ -72,7 +72,6 @@ if (splides.length) {
       arrows: true,
       type: "slide",
       start: 0,
-      focus: 0,
       pagination: false,
       rewindSpeed: 500,
       speed: 500,
