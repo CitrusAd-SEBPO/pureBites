@@ -963,15 +963,6 @@ product tab carousal style start //imran
 
     .citrus__tab_content_item {
         display: none;
-        margin-left: 10px;
-    }
-
-    .citrus__tab_content_item:first-child {
-        margin-left: 15px;
-    }
-
-    .citrus__tab_content_item:last-child {
-        margin-right: 15px;
     }
 
     .citrus__tab_content_item>a,
@@ -1431,6 +1422,10 @@ End product tab carousal style //imran
         /* product card carousal width */
         .citrus_purebits_shopper_container {
             max-width: 100%;
+        }
+
+        .citrus__tab_content_item {
+            padding-left: 10px;
         }
     }
 
@@ -2721,9 +2716,11 @@ End product tab carousal style //imran
                 omitEnd: true,
                 breakpoints: {
                     375: {
+                        focus: 0,
                         perPage: 1.5,
                     },
                     576: {
+                        focus: 0,
                         perPage: 1.75,
                     },
                     991: {
