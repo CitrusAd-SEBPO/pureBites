@@ -89,6 +89,9 @@ if (splides.length) {
           focus: 0,
           perPage: 1.75,
         },
+        768: {
+          perPage: 3,
+        },
         991: {
           perPage: 3,
         },
